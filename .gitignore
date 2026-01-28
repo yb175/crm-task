@@ -1,0 +1,38 @@
+node_modules
+# Keep environment variables out of version control
+.env
+
+/generated/prisma
+
+# Ignore build outputs
+build/
+dist/
+
+# Ignore logs
+*.log
+logs/
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+.DS_Store
+
+# Ignore test coverage
+coverage/
+
+# Ignore npm debug files
+npm-debug.log*
+
+# Ignore OS generated files
+Thumbs.db
+.DS_Store
+
+# Ignore Prisma migrations
+prisma/migrations/
+
+# Ignore compiled TypeScript files
+*.tsbuildinfo
