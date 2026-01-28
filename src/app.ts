@@ -30,7 +30,8 @@ app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 app.use("/users", userRouter);
 app.use("/customers", customerRouter);
 app.use("/tasks", tasksRouter);
-app.listen(5000, () => {
-  console.log("Server is running on http://localhost:5000");
-  console.log("Swagger docs available at http://localhost:5000/api-docs");
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => {
+  console.log(`Server is running on http://localhost:${PORT}`);
+  console.log(`Swagger docs available at http://localhost:${PORT}/api-docs`);
 });
