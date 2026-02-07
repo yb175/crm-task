@@ -222,9 +222,5 @@ Includes:
 
 ---
 
-## 👨‍💻 Author
 
-Built as part of a backend engineering assignment demonstrating API design, security, and relational data modeling.
-
----
 
